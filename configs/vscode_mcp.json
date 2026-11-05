@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "eldertongue": {
+      "type": "http",
+      "url": "https://eldertongue.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,74 @@
+eldertongue — licensing
+========================
+
+This repository contains public documentation, client configuration samples, and an
+agent skill for the eldertongue Old English dictionary MCP server. Two different
+licences apply, depending on what you are using:
+
+1. Code and configuration — MIT
+2. Dictionary data and content — CC BY-SA 4.0
+
+
+1. Code and configuration: MIT License
+--------------------------------------
+
+The code samples, JSON configuration files, and documentation in this repository
+are licensed under the MIT License.
+
+Copyright (c) eldertongue
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to use,
+copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the
+Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+2. Dictionary data and content: CC BY-SA 4.0
+--------------------------------------------
+
+The linguistic data served by the API and MCP endpoint — headwords, senses,
+quotations, IPA, inflection tables, etymologies, descendants, and the Bēowulf
+verse index — is derived from Wiktionary (via the kaikki.org Old English
+extraction produced with wiktextract) and is licensed under the Creative Commons
+Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0):
+
+    https://creativecommons.org/licenses/by-sa/4.0/
+
+Under this licence you are free to share and adapt the material, provided that you:
+
+  - Attribution — Give appropriate credit to Wiktionary and to eldertongue.com,
+    link to the licence, and indicate if changes were made. Every entry page links
+    to its source page on en.wiktionary.org. Please also link back to the specific
+    eldertongue page you used, for example:
+
+        https://eldertongue.com/word/cyning
+        https://eldertongue.com/attribution
+
+  - ShareAlike — If you remix, transform, or build upon the material, you must
+    distribute your contributions under the same licence as the original.
+
+  - No additional restrictions — You may not apply legal terms or technological
+    measures that legally restrict others from doing anything the licence permits.
+
+Attribution example:
+
+    Data from eldertongue.com (https://eldertongue.com), based on Wiktionary
+    contributors, licensed under CC BY-SA 4.0
+    (https://creativecommons.org/licenses/by-sa/4.0/).
+
+The MIT licence above does NOT apply to the dictionary data. Code and data are
+kept separate on purpose: you may reuse the code freely, but any reuse of the
+linguistic content must follow CC BY-SA 4.0, including attribution and
+share-alike.
