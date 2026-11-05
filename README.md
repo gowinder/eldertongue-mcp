@@ -29,6 +29,7 @@ endpoint exists so a program can get structured, citable data.
 | Website | <https://eldertongue.com> |
 | MCP endpoint | `https://eldertongue.com/mcp` (Streamable HTTP, no auth) |
 | Repository | <https://github.com/gowinder/eldertongue-mcp> |
+| MCP Registry | `io.github.gowinder/eldertongue` ([listing](https://registry.modelcontextprotocol.io/?q=eldertongue)) |
 | Code licence | MIT (this repository, see [`LICENSE`](LICENSE)) |
 | Data licence | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (dictionary content) |
 | Contact | <mailto:support@eldertongue.com> |
@@ -40,6 +41,9 @@ This repository is also a portable [Agent Plugins](https://agent-plugins.org/) p
 `plugin.json` holds the manifest, `mcp.json` declares the hosted Streamable HTTP server, and
 `skills/old-english-lookup/` contains the agent skill. Clients that implement the format can load
 the MCP server and the skill straight from the repository URL.
+
+`server.json` is the [Official MCP Registry](https://registry.modelcontextprotocol.io/) manifest for the
+hosted endpoint; it is published as `io.github.gowinder/eldertongue` (version 1.0.0, `streamable-http`).
 
 ## Endpoints
 
