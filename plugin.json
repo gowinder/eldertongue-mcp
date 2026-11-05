@@ -1,0 +1,22 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "eldertongue",
+  "version": "1.0.0",
+  "description": "Old English dictionary served over a read-only MCP endpoint: headword lookup, declension and conjugation tables, inflected-form identification, Modern English to Old English reverse lookup, and Beowulf attestations.",
+  "author": {
+    "name": "eldertongue",
+    "url": "https://eldertongue.com"
+  },
+  "homepage": "https://eldertongue.com",
+  "repository": "https://github.com/gowinder/eldertongue-mcp",
+  "license": "MIT",
+  "keywords": [
+    "old-english",
+    "anglo-saxon",
+    "dictionary",
+    "linguistics",
+    "historical-linguistics",
+    "mcp",
+    "beowulf"
+  ]
+}

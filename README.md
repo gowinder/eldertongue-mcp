@@ -34,6 +34,13 @@ endpoint exists so a program can get structured, citable data.
 | Contact | <mailto:support@eldertongue.com> |
 | Logo | [`logo-512.png`](logo-512.png) · [`logo-1024.png`](logo-1024.png) |
 
+## Packaging
+
+This repository is also a portable [Agent Plugins](https://agent-plugins.org/) package:
+`plugin.json` holds the manifest, `mcp.json` declares the hosted Streamable HTTP server, and
+`skills/old-english-lookup/` contains the agent skill. Clients that implement the format can load
+the MCP server and the skill straight from the repository URL.
+
 ## Endpoints
 
 | Purpose | URL | Notes |
