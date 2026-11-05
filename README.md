@@ -10,6 +10,8 @@ holds the public-facing documentation, client configuration samples, and an agen
 the hosted MCP endpoint. The server itself is a hosted, managed service — there is no code to
 run here.
 
+[![Eldertongue MCP connector — tool definition quality and endpoint health on Glama](https://glama.ai/mcp/connectors/io.github.gowinder/eldertongue/badges/score.svg)](https://glama.ai/mcp/connectors/io.github.gowinder/eldertongue)
+
 ## Who it's for
 
 - **Agents and assistants** that need to look up, inflect, or disambiguate Old English words
