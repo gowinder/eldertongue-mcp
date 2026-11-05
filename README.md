@@ -12,6 +12,8 @@ run here.
 
 [![Eldertongue MCP connector — tool definition quality and endpoint health on Glama](https://glama.ai/mcp/connectors/io.github.gowinder/eldertongue/badges/score.svg)](https://glama.ai/mcp/connectors/io.github.gowinder/eldertongue)
 
+A human-readable overview of the server — the five tools, client setup, limits and licence — is at <https://eldertongue.com/mcp-server>.
+
 ## Who it's for
 
 - **Agents and assistants** that need to look up, inflect, or disambiguate Old English words
